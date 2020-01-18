@@ -23,7 +23,7 @@ import { Component } from '@angular/core'
       </mat-card>
       <div fxFlex></div>
     </div>
-    <div style="margin-left: 75%;margin-top: 16%;">
+    <div style="margin-left: 75%;margin-top: 12%;">
       <p>© Copyright 2020, Codez Tech by Atique Ahmed</p>
     </div>
   `,
