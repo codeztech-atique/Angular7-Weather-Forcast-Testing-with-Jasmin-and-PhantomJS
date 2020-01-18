@@ -1,12 +1,6 @@
 # copyright codezTech by Atique Ahmed 
 # Weather Report
 
-## Get the book
-Weather Report has been developed in support of my book _Angular 6 for Enterprise-Ready Web Applications_. You can get the book on http://AngularForEnterprise.com.
-
-Check out **LemonMart**, an Angular 6 Grocery Store LOB App implemented with a Router-first architecture, at https://github.com/duluca/lemon-mart.
-
-Build, debug and publish Docker images with [**npm Scripts for Docker**](bit.ly/npmScriptsForDocker) and achieve Blue-Green deployments on AWS Fargate with [**npm Scripts for AWS**](bit.ly/npmScriptsForAWS).
 
 ## Build
 - `npm run build:prod` to build a production optimized version of the app.
@@ -35,6 +29,4 @@ A replacement for publishing arbitrary Docker images would be a new service call
 - Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
 ### Further help with Angular CLI
 > This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.6.3.
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
-### Full-Stack Setup with Docker Compose and Deploying to AWS
-See my example project here https://github.com/excellalabs/minimal-mean
+
