@@ -1,5 +1,8 @@
-# copyright codezTech by Atique Ahmed 
+
 # Weather Report Angular7
+
+About MySelf - https://www.youtube.com/watch?v=mPDa2aycGzc
+Subscribe my Youtube Channel https://www.youtube.com/c/CodezTech?sub_confirmation=1
 
 
 ## Build
