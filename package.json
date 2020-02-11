@@ -56,7 +56,7 @@
     "intl": "^1.2.5",
     "karma-phantomjs-launcher": "^1.0.4",
     "rxjs": "6.4.0",
-    "zone.js": "^0.8.26"
+    "zone.js": "^0.10.2"
   },
   "devDependencies": {
     "@angular-devkit/build-angular": "~0.11.4",
