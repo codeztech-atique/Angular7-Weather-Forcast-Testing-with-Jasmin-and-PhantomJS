@@ -34,7 +34,9 @@
     "docker:open:mac": "echo Trying to launch on MacOS && sleep 2 && URL=http://localhost:$npm_package_config_imagePort && open $URL",
     "docker:debugmessage": "echo Docker Debug Completed Successfully! Hit Ctrl+C to terminate log tailing.",
     "predocker:debug": "run-s -c docker:build docker:run",
-    "docker:debug": "run-s -cs docker:open:win docker:open:mac docker:debugmessage docker:taillogs"
+    "docker:debug": "run-s -cs docker:open:win docker:open:mac docker:debugmessage docker:taillogs",
+    "snyk-protect": "snyk protect",
+    "prepare": "npm run snyk-protect"
   },
   "private": true,
   "dependencies": {
@@ -56,7 +58,8 @@
     "intl": "^1.2.5",
     "karma-phantomjs-launcher": "^1.0.4",
     "rxjs": "6.4.0",
-    "zone.js": "^0.8.26"
+    "zone.js": "^0.8.26",
+    "snyk": "^1.316.1"
   },
   "devDependencies": {
     "@angular-devkit/build-angular": "~0.11.4",
@@ -104,5 +107,6 @@
     "singleQuote": true,
     "trailingComma": "es5",
     "parser": "typescript"
-  }
+  },
+  "snyk": true
 }
